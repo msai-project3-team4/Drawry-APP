@@ -1,0 +1,49 @@
+name: DrawryAPP
+description: "드로리 - 동화책 생성 앱"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.4
+  intl: ^0.20.2
+  flutter_dotenv: ^5.2.1
+  http: ^1.3.0
+  flutter_secure_storage: ^9.2.4
+  kakao_flutter_sdk: ^1.6.1
+  flutter_drawing_board: ^0.9.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/LOGO.png
+    - assets/nextbutton.png
+    - assets/kakao_logo.png
+    - assets/icon.png
+    - assets/peterpan.png
+    - assets/puss_in_boots.png
+    - assets/aladdin_genie.png
+    - assets/aladdin.png
+    - assets/genie.png
+    - assets/jafar.png
+    - assets/jasmine.png
+    - assets/sultan.png
+    - .env
+
+flutter_native_splash:
+  color: "#FCFCF0"
+  image: assets/LOGO.png
+  android: true
+  fullscreen: true

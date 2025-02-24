@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.drawryapps"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:2:5-66
+15-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:2:22-64
+16    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+16-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:3:5-76
+16-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:3:22-74
+17
+18    <queries>
+18-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:50:5-56:15
+19        <package android:name="com.kakao.talk" />
+19-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:51:9-49
+19-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:51:18-47
+20
+21        <intent>
+21-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:52:9-55:18
+22            <action android:name="android.intent.action.PROCESS_TEXT" />
+22-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:53:13-72
+22-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:53:21-70
+23
+24            <data android:mimeType="text/plain" />
+24-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:54:13-50
+24-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:54:19-48
+25        </intent>
+26
+27        <package android:name="com.kakao.talk.alpha" />
+27-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-56
+27-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:9:18-53
+28        <package android:name="com.kakao.talk.sandbox" />
+28-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-58
+28-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-55
+29        <package android:name="com.kakao.onetalk" />
+29-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-53
+29-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-50
+30        <package android:name="com.locnall.KimGiSa" />
+30-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-55
+30-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-52
+31        <package android:name="com.lguplus.navi" />
+31-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-52
+31-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-49
+32
+33        <intent>
+33-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-65
+34-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-62
+35
+36            <category android:name="android.intent.category.BROWSABLE" />
+36-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-74
+36-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:23-71
+37
+38            <data android:scheme="https" />
+38-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:54:13-50
+39        </intent>
+40    </queries>
+41
+42    <permission
+42-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\6de47aff09eaa46e79b932a1a5800433\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+43        android:name="com.example.drawryapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\6de47aff09eaa46e79b932a1a5800433\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\6de47aff09eaa46e79b932a1a5800433\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.example.drawryapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\6de47aff09eaa46e79b932a1a5800433\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\6de47aff09eaa46e79b932a1a5800433\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+47
+48    <application
+49        android:name="android.app.Application"
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\transforms-3\6de47aff09eaa46e79b932a1a5800433\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+51        android:debuggable="true"
+52        android:extractNativeLibs="true"
+53        android:icon="@mipmap/ic_launcher"
+54        android:label="드로리" >
+55        <activity
+56            android:name="com.example.drawryapps.MainActivity"
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+58            android:exported="true"
+59            android:hardwareAccelerated="true"
+60            android:launchMode="singleTop"
+61            android:taskAffinity=""
+62            android:theme="@style/LaunchTheme"
+63            android:windowSoftInputMode="adjustResize" >
+64            <meta-data
+65                android:name="io.flutter.embedding.android.NormalTheme"
+66                android:resource="@style/NormalTheme" />
+67
+68            <intent-filter>
+69                <action android:name="android.intent.action.MAIN" />
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+72            </intent-filter>
+73        </activity>
+74
+75        <meta-data
+76            android:name="flutterEmbedding"
+77            android:value="2" />
+78        <!-- 📌 카카오 네이티브 앱 키 설정 -->
+79
+80        <meta-data
+81            android:name="com.kakao.sdk.AppKey"
+82            android:value="" />
+83
+84        <!-- 카카오 로그인 리다이렉트 설정 -->
+85        <activity
+86            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+87            android:exported="true"
+88            android:launchMode="singleTask"
+88-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:18:13-44
+89            android:theme="@style/TransparentCompat" >
+89-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:19:13-53
+90            <intent-filter>
+91                <action android:name="android.intent.action.VIEW" />
+91-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-65
+91-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-62
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-74
+94-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:23-71
+95
+96                <data android:scheme="" />
+96-->C:\Project\drawryapps\android\app\src\main\AndroidManifest.xml:54:13-50
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-30:56
+100            android:name="com.kakao.sdk.flutter.TalkAuthCodeActivity"
+100-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-70
+101            android:configChanges="orientation|screenSize|keyboardHidden|uiMode"
+101-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-81
+102            android:exported="false"
+102-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+103            android:launchMode="singleTask"
+103-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-44
+104            android:theme="@style/TransparentCompat" />
+104-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-53
+105        <activity
+105-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-35:56
+106            android:name="com.kakao.sdk.flutter.CustomTabsActivity"
+106-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-68
+107            android:exported="true"
+107-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-36
+108            android:launchMode="singleTask"
+108-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-44
+109            android:theme="@style/TransparentCompat" />
+109-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-53
+110        <activity
+110-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-40:56
+111            android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
+111-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-76
+112            android:exported="true"
+112-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-36
+113            android:launchMode="singleTask"
+113-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-44
+114            android:theme="@style/TransparentCompat" />
+114-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-53
+115        <activity
+115-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-45:56
+116            android:name="com.kakao.sdk.flutter.FollowChannelHandlerActivity"
+116-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-78
+117            android:exported="true"
+117-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-36
+118            android:launchMode="singleTask"
+118-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-44
+119            android:theme="@style/TransparentCompat" />
+119-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-53
+120        <activity
+120-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:46:9-50:56
+121            android:name="com.kakao.sdk.flutter.AppsHandlerActivity"
+121-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-69
+122            android:exported="true"
+122-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-36
+123            android:launchMode="singleTask"
+123-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-44
+124            android:theme="@style/TransparentCompat" />
+124-->[:kakao_flutter_sdk_common] C:\Project\drawryapps\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-53
+125        <activity
+125-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:10:9-15:56
+126            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+126-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:11:13-67
+127            android:configChanges="orientation|screenSize|keyboardHidden"
+127-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:12:13-74
+128            android:exported="false"
+128-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:13:13-37
+129            android:launchMode="singleTask"
+129-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:14:13-44
+130            android:theme="@style/TransparentCompat" />
+130-->[com.kakao.sdk:v2-auth:2.12.0] C:\Users\user\.gradle\caches\transforms-3\2ff85fe83270098283ba770b21065f13\transformed\jetified-v2-auth-2.12.0\AndroidManifest.xml:15:13-53
+131
+132        <uses-library
+132-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\14b9b4b67c49a3b06f1f5d79b779b793\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+133            android:name="androidx.window.extensions"
+133-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\14b9b4b67c49a3b06f1f5d79b779b793\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+134            android:required="false" />
+134-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\14b9b4b67c49a3b06f1f5d79b779b793\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+135        <uses-library
+135-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\14b9b4b67c49a3b06f1f5d79b779b793\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+136            android:name="androidx.window.sidecar"
+136-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\14b9b4b67c49a3b06f1f5d79b779b793\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+137            android:required="false" />
+137-->[androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\transforms-3\14b9b4b67c49a3b06f1f5d79b779b793\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+138
+139        <provider
+139-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\04cf590962b84dbded8c07dbfc678cc8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+140            android:name="androidx.startup.InitializationProvider"
+140-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\04cf590962b84dbded8c07dbfc678cc8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+141            android:authorities="com.example.drawryapps.androidx-startup"
+141-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\04cf590962b84dbded8c07dbfc678cc8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+142            android:exported="false" >
+142-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\04cf590962b84dbded8c07dbfc678cc8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\04cf590962b84dbded8c07dbfc678cc8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\04cf590962b84dbded8c07dbfc678cc8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\user\.gradle\caches\transforms-3\04cf590962b84dbded8c07dbfc678cc8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+146            <meta-data
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+147                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+148                android:value="androidx.startup" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+149        </provider>
+150
+151        <receiver
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+152            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+153            android:directBootAware="false"
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+154            android:enabled="true"
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+155            android:exported="true"
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+156            android:permission="android.permission.DUMP" >
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+158                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+161                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+164                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+165            </intent-filter>
+166            <intent-filter>
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+167                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\transforms-3\cf0a85b0d39df481550a253874684b1d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+168            </intent-filter>
+169        </receiver>
+170    </application>
+171
+172</manifest>
